@@ -1,0 +1,21 @@
+menu, .menu-main, #menu-main, .menu-home2, .coverbg-mobile{display:none !important;}
+a, .btn, #btt, .slick-next, .slick-prev{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s;}
+a:hover, .btn:hover, #btt:hover, .slick-prev:hover, .slick-next:hover{opacity:0.6;}
+#btt{cursor:pointer;}
+
+.header-logo img{height:40px;}
+
+#cover{max-height:500px;}
+#cover:after{padding-top:56.25%;}
+
+.about-image{float:right !important; width:480px;}
+.about-info{width:calc(100% - 480px); padding-right:20px !important;}
+
+#excellence > span > ul > li, #services > span > ul > li{width:calc(33.33% - 10px); flex-basis:calc(33.33% - 10px);}
+
+body:not(.page-home) .partner-client-list > div{width:calc(25% - 10px); flex-basis:calc(25% - 10px);}
+
+.page-home .contact-info{width:calc(100% - 480px); padding-right:20px !important;}
+.page-home .contact-map{width:480px; float:right !important;}
+
+.page-contact #contact > span > ul > li{width:100%;}
