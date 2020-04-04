@@ -89,6 +89,8 @@ var scroll_reveal_show = function(){
   sr.reveal('#about > span > ul > li > *',100);
   sr.reveal('#excellence > span > ul > li',100);
   sr.reveal('#services > span > ul > li',100);
+  sr.reveal('.partner-client-list.slick-slider',100);
+  sr.reveal('.partner-client-list > .pcl-box',100);
   sr.reveal('#contact > span > ul > li > *',100);
 };
 /* end scroll reveal show */
