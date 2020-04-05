@@ -11,10 +11,10 @@
 <base href="/abirama/" />
 <link href="img/favicon.ico" rel="icon" type="image/ico" />
 <link rel="stylesheet" href="css/base.css" type="text/css" media="screen">
-<link rel="preload" href="fonts/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2" as="font">
-<link rel="preload" href="fonts/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font">
-<link rel="preload" href="fonts/awesome5/fa-brands-400.woff2" as="font">
-<link rel="preload" href="fonts/awesome5/fa-regular-400.woff2" as="font">
-<link rel="preload" href="fonts/awesome5/fa-solid-900.woff2" as="font">
+<link rel="preload" href="fonts/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/awesome5/fa-brands-400.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/awesome5/fa-regular-400.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/awesome5/fa-solid-900.woff2" as="font" crossorigin>
 </head>
 <body class="page-<?php echo $page?>">
