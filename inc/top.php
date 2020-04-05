@@ -16,9 +16,5 @@
 <link rel="preload" href="fonts/awesome5/fa-brands-400.woff2" as="font">
 <link rel="preload" href="fonts/awesome5/fa-regular-400.woff2" as="font">
 <link rel="preload" href="fonts/awesome5/fa-solid-900.woff2" as="font">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-   window.jQuery || document.write('<script src="js/jquery.js"><\/script>');
-</script>
 </head>
 <body class="page-<?php echo $page?>">
