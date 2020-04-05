@@ -114,5 +114,4 @@ $(window).on('load', function(){
   refresh_up();
   scroll_reveal_show();
   $(".se-pre-con").fadeOut("slow");
-  $(".contact-map-box").html('');
 }); 
