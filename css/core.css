@@ -21,7 +21,7 @@ ol::before, ol::after{content:''; display:block; overflow:hidden; visibility:hid
 .flex_slick img{opacity:0 !important; position:absolute; top:0; left:0; width:0; height:0;}
 .flex_thumb img, .flex_lazy img{opacity:0; position:absolute;}
 .site-container{min-height:calc(100vh - 100px);}
-h4.section-title{font-weight:bold; font-size:36px; color:#212121;}
+h4.section-title{font-weight:bold; font-size:36px; line-height:42px; color:#212121;}
 h4.section-title::first-letter{color:#F44336;}
 
 header{position:fixed; z-index:99; top:0; left:0; width:100%; background-color:rgba(255,255,255,0.95);
@@ -109,3 +109,11 @@ body:not(.page-home) .partner-client-list > div{float:left; margin:5px; overflow
 -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
 .contact-map-box:after{content:''; display:block; padding-top:56.25%;}
 .contact-map-box iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
+
+.article-box{padding:5px;}
+.article-box > *{padding-bottom:15px; line-height:24px;}
+.article-image{text-align:center;}
+.article-box ul, .article-box ol{padding-left:20px;}
+.article-box ul{list-style:square;}
+.article-box ol{list-style:decimal;}
+.article-box ul > li, .article-box ol > li{padding:5px 0;}
